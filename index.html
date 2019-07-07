@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS\normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Barriecito|Literata|Lora|Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <style>
+        body>header>div{
+            background: linear-gradient(to top, whitesmoke,darkgray );
+            height: 50px;
+            position:relative;
+            padding: 0;
+        }
+        body>header>div>ul{
+            list-style : none;
+            position: absolute;
+            padding-top: 5px;
+
+            right:20px;
+        }
+        body>header>div>ul>li{
+
+            display: inline;
+            padding-right: 15px;
+            font-size: 20px;
+        }
+
+        body>main>div{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        body>main>div>div:nth-child(1){
+            position: relative;
+
+        }
+        body>main>div>div:nth-child(1)>img{
+            width: 100%;
+            position: relative;
+
+        }
+        body>main>div>div:nth-child(1)>div:nth-child(2){
+            font-family: 'Literata', serif;
+            font-size: 80px;
+            z-index: 10;
+            left: 37%;
+            top: 10%;
+            position: absolute;
+        }
+        body>main>div>div:nth-child(1)>div:nth-child(3){
+            font-family: 'Barriecito', cursive;
+            font-size: 120px;
+            z-index: 10;
+            left: 35%;
+            top: 22%;
+            position: absolute;
+        }
+        body>main>div>div:nth-child(1)>div:nth-child(4){
+            font-family: 'Lora', serif;
+            font-size: 60px;
+            z-index: 10;
+            left: 37%;
+            top: 38%;
+            position: absolute;
+        }
+        body>main>div>div:nth-child(1)>div:nth-child(5){
+
+            z-index: 10;
+            left: 60%;
+            top: 50%;
+            position: absolute;
+            height: 5%;
+            width: 5%;
+        }
+        body>main>div>div:nth-child(2){
+            width: 100%;
+            height: 400px;
+            position: relative;
+
+
+        }
+        body>main>div>div:nth-child(2)>div:nth-child(1){
+            width: 100%;
+            top: 0;
+
+            left:0;
+            font-family: 'Lora', serif;
+            font-size: 60px;
+            background: linear-gradient(to top,darkgray,whitesmoke);
+            position: relative;
+        }
+        body>main>div>div:nth-child(2)>div:nth-child(2){
+            width: 100%;
+            height: 330px;
+
+            background: linear-gradient(to top,antiquewhite,lightgray);
+            left:0;
+            font-family: 'Barriecito', cursive;
+            font-size: 20px;
+            position: absolute;
+        }
+
+        /*body>main>div>div:nth-child(5)>div:nth-child(2)>p{*/
+        /*    margin-top: 0;*/
+        /*}*/
+
+        body>main>div>div:nth-child(3){
+
+            display: grid;
+            grid-template-columns: 49% 49%;
+            /*grid-template-rows: 100px 100px 100px 100px;*/
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            position: relative;
+        }
+        body>main>div>div:nth-child(3)>div:nth-child(1) {
+            grid-column: 1/3;
+            font-family: 'Barriecito', cursive;
+            font-size: 55px;
+            background: linear-gradient(to top, darkgray, whitesmoke);
+            grid-template-rows: 100px;
+            position: relative;
+        }
+
+
+        body>main>div>div:nth-child(3)>div:nth-child(2)>img{
+            width: 100%;
+            height: 500px;
+
+        }
+        body>main>div>div:nth-child(3)>div:nth-child(3)>img{
+            width: 100%;
+            height: 500px;
+
+        }
+        body>main>div>div:nth-child(3)>div:nth-child(4)>img{
+            width: 100%;
+            height: 500px;
+
+        }
+        body>main>div>div:nth-child(3)>div:nth-child(5)>img{
+            width: 100%;
+            height: 500px;
+
+        }
+        body>main>div>div:nth-child(3)>div:nth-child(6)>img{
+            width: 100%;
+            height: 500px;
+
+        }
+        body>main>div>div:nth-child(3)>div:nth-child(7)>img {
+            width: 100%;
+            height: 500px;
+
+        }
+        body>main>div>div:nth-child(3)>div:nth-child(8)>img{
+            width: 100%;
+            height: 500px;
+            grid-template-rows: 500px;
+
+        }
+        body>main>div>div:nth-child(3)>div:nth-child(9)>img{
+            width: 100%;
+            height: 500px;
+            grid-template-rows: 500px;
+
+        }
+        body>main>div>div:nth-child(4){
+
+            display: grid;
+            grid-template-columns: 24% 24% 24% 24%;
+            /*grid-template-rows: 100px 100px 100px 100px;*/
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            position: relative;
+            height: 300px;
+            top: 20px;
+            bottom: 20px;
+        }
+
+        body>footer>div{
+            background: linear-gradient(to bottom,chocolate,darkgrey);
+            font-family: 'Barriecito', cursive;
+            font-size: 25px;
+            height: 60px;
+            position: relative;
+            padding: 0;
+        }
+        body>footer>div>p{
+           position: absolute;
+            left: 40%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <div>
+           <ul>
+               <li>Home</li>
+               <li><a href="https://www.instagram.com/charith.rockz9/">My Gallery</a></li>
+               <li>About</li>
+               <li>Contact Me</li>
+           </ul>
+       </div>
+   </header>
+   <main>
+       <div>
+           <div>
+               <img src="Images/myImage.jpg"/>
+               <div>Hasitha</div>
+               <div>Charith</div>
+               <div>Photography</div>
+               <div>
+                   <a href="https://www.instagram.com/charith.rockz9/">
+                       <img src="Images/instagram-png-instagram-png-logo-1455.png" height="30" width="30"/>
+                   </a>
+               </div>
+           </div>
+
+           <div>
+               <div>About me</div>
+               <div>
+                   <p>  Photographers are artists with the camera, using a blend of technical skills and an artistic eye to take pictures of people, places, landscapes, food, you name it.
+                   </p>
+                   <p>
+                       Photographers can work as fine artists, wedding and event photographers, or sell their photos to commercial clients.
+                   </p>
+                   <p>
+                       Today's photographers are almost all digital, no longer using traditional film cameras.
+                       In addition to knowing how to use and care for high-end camera equipment, photographers must also understand the wide variety of photo editing and printing equipment available.
+                   </p>
+                   <p>
+                       Types of photographers include portrait, commercial/industrial, aerial, scientific, news, fine arts and university. Many photographers are self-employed and must work to gain new business.
+                   </p>
+               </div>
+           </div>
+           <div>
+               <div>My Gallery</div>
+               <div ><img src="Images/IMG_20180407_062445_459.jpg"/></div>
+               <div><img src="Images/IMG_20180704_092909_291.jpg"/></div>
+               <div><img src="Images/IMG_20180909_071513_733.jpg"/></div>
+               <div><img src="Images/IMG_20181123_230203_133.jpg"/></div>
+               <div><img src="Images/IMG_20181203_065309_286.jpg"/></div>
+               <div><img src="Images/IMG_20190129_113817_157.jpg"/></div>
+               <div><img src="Images/IMG_20190420_222711_732.jpg"/></div>
+               <div><img src="Images/IMG_20190511_211015_527.jpg"/></div>
+           </div>
+           <div>
+               <div style="background: linear-gradient(to top,lightpink,darkgrey)"></div>
+               <div style="background: linear-gradient(to top,antiquewhite,darkgrey)"></div>
+               <div style="background: linear-gradient(to top,aqua,darkgrey)"></div>
+               <div style="background: linear-gradient(to top,gold,darkgrey)"></div>
+           </div>
+       </div>
+   </main>
+
+   <footer>
+       <div>
+            <p>Hasith Charith Photography</p>
+       </div>
+   </footer>
+
+</body>
+</html>
